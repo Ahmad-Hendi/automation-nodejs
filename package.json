@@ -1,0 +1,34 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "Automated software testing with Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "firstTest": "./node_modules/mocha/bin/mocha --timeout=30000 ./basicOne",
+    "secondeTest": "./node_modules/mocha/bin/mocha --timeout=30000 ./basicTwo",
+    "thirdTest": "./node_modules/mocha/bin/mocha --timeout=30000 ./basicThree"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmad-Hendi/automation.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai",
+    "Automation"
+  ],
+  "author": "Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmad-Hendi/automation/issues"
+  },
+  "homepage": "https://github.com/Ahmad-Hendi/automation#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chalk": "^4.1.0",
+    "mocha": "^8.3.2",
+    "prettier": "^2.2.1",
+    "puppeteer": "^8.0.0"
+  }
+}
